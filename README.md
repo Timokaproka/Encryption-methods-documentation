@@ -3380,7 +3380,7 @@ decipher = DES.new(key, DES.MODE_CTR, nonce=nonce, initial_value=None, counter=N
 decrypted = decipher.decrypt(ciphertext)
 ```
 
-Пример кода для AES-128-128:
+Пример кода для AES-128:
 ```Python
 '''
 В КОДЕ НЕТ ПРОВЕРКИ НА ВЫХОД ЗА ПРЕДЕЛЫ СЧЁТЧИКА!!! 
